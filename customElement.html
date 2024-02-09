@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+    <html lang=en>
 
+    <head>
+        <style>
+            x-red{
+            visibility: hidden;
+            }
+
+            x-red:defined{
+            visibility: visible;
+            }
+            </style>
+    </head>
+
+    <body>
+        <h1>Custom Elements</h1>
+        <center>Curtis was here</center>
+        <x-red>This should be in red</x-red>
+        <footer>
+            &copy; Curtis Lee <x-year />
+        </footer>
+        <script>
+            class CurrentDate extends HTMLElement {
+                    connectedCallback(){
+                    this.innerHTML= new Date().getFullYear();
+                    }
+                    }
+
+                    customElements.define("x-year", CurrentDate);
+
+                class ShouldBeRed extends HTMLElement{
+                    connectedCallback(){
+                    this.innerHTML = `<div style="color:red;background:white;float:right">
+                    ${this.innerHTML}</div>`
+                    }
+                    }
+
+                    customElements.define("x-red", ShouldBeRed);
+        </script>
+    </body>
+
+    </html>
+    

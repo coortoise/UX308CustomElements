@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url><loc>https://example.com/index.html</loc></url>
+	<url><loc>https://example.com/customElement.html</loc></url>
+	<url><loc>https://example.com/node_modules/unique-filename/coverage/index.html</loc></url>
+	<url><loc>https://example.com/node_modules/unique-filename/coverage/__root__/index.js.html</loc></url>
+	<url><loc>https://example.com/node_modules/unique-filename/coverage/__root__/index.html</loc></url>
+	<url><loc>https://example.com/node_modules/express-fileupload/example/index.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/tests/fixtures/two-way-iframe.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/tests/fixtures/iframe.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/tests/fixtures/attack-iframe.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/docs/index.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/docs/examples/99-nonworker-examples/iframes/index.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/docs/examples/99-nonworker-examples/iframes/iframe.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/docs/examples/07-sharedworker-example/index.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/docs/examples/05-serviceworker-example/index.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/docs/examples/04-eventlistener-example/index.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/docs/examples/03-classes-example/index.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/docs/examples/02-callback-example/index.html</loc></url>
+	<url><loc>https://example.com/node_modules/comlink/docs/examples/01-simple-example/index.html</loc></url>
+</urlset>
